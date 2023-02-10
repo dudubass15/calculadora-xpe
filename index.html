@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora XPE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <main class="calculadora">
+        <div class="header">
+            <h1 class="title">Super calculadora XPE</h1>
+            <div class="row">
+                <div class="column">
+                    <label for="input__a">Primeiro número (A)</label>
+                    <input type="number" class="input" id="input__a">
+                </div>
+                <div class="column">
+                    <label for="input__b">Segundo número (B)</label>
+                    <input type="number" class="input" id="input__b">
+                </div>
+                <button type="button" class="button" id="calcular">Calcular</button>
+            </div>
+        </div>
+        <div class="body">
+            <table>
+                <tbody>
+                    <tr>
+                        <td id="soma">
+                            <span>Soma</span>
+                            <p>0</p>
+                        </td>
+                        <td id="subtrairA">
+                            <span>Subtração A - B</span>
+                            <p>0</p>
+                        </td>
+                        <td id="subtrairB">
+                            <span>Subtração B - A</span>
+                            <p>0</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="multiplicarA">
+                            <span>Multiplicação</span>
+                            <p>0</p>
+                        </td>
+                        <td id="dividirA">
+                            <span>Divisão A/B</span>
+                            <p>0</p>
+                        </td>
+                        <td id="dividirB">
+                            <span>Divisão B/A</span>
+                            <p>0</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="potenciaA">
+                            <span>Potência de A na base B</span>
+                            <p>0</p>
+                        </td>
+                        <td id="potenciaB">
+                            <span>Potência de B na base A</span>
+                            <p>0</p>
+                        </td>
+                        <td id="raizA">
+                            <span>Raiz quadrada de A</span>
+                            <p>0</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="raizB">
+                            <span>Raiz quadrada de B</span>
+                            <p>0</p>
+                        </td>
+                        <td id="fatorialA">
+                            <span>Fatorial de A</span>
+                            <p>0</p>
+                        </td>
+                        <td id="fatorialB">
+                            <span>Fatorial de B</span>
+                            <p>0</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="porcentagemA">
+                            <span>Portentagem de A em relação a B</span>
+                            <p>0</p>
+                        </td>
+                        <td id="porcentagemB">
+                            <span>Portentagem de B em relação a A</span>
+                            <p>0</p>
+                        </td>
+                        <td id="media">
+                            <span>Média</span>
+                            <p>0</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+</body>
+<script src="./script.js"></script>
+</html>
